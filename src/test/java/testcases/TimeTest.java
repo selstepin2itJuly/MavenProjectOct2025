@@ -20,7 +20,7 @@ public class TimeTest {
 	 private static final Logger logger = LogManager.getLogger(TimeTest.class);
 	 private DriverInstance driverInstance;
 	
-  @Test(description ="Verify The Time Table")
+  @Test(description ="Verify The Time Table", enabled=true)
   public void TC009_VerifyTheTimeIsAdded() throws IOException {
 	  logger.info("Start TC009_VerifyTheTimeIsAdded test case");
 	  driverInstance.getLoginPage().loginToApplication("Admin", "admin123");
