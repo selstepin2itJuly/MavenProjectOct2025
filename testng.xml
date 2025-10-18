@@ -6,6 +6,7 @@
       <class name="testcases.ForgotPasswordTest"/>
       <class name="testcases.MyInfoTest"/>
       <class name="testcases.AdminTest"/>
+      <class name="testcases.TimeTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
